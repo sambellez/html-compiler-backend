@@ -1,0 +1,19 @@
+{
+  "name": "html-compiler-backend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "dependencies": {
+    "cors": "^2.5.3",
+    "ejs": "*",
+    "express": "3.1.0",
+    "path": "*"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.15"
+  }
+}
